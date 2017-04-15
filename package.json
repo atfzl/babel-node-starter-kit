@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-watch lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Atif Afzal",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-watch": "^2.0.6",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
 }
