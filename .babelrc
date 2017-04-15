@@ -6,5 +6,9 @@
       }
     }],
     "babel-preset-flow"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "flow-runtime"
   ]
 }
