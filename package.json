@@ -8,6 +8,10 @@
     "build": "NODE_ENV=production babel lib -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">7.9.0",
+    "npm": ">4.2.0"
+  },
   "author": "Atif Afzal",
   "license": "MIT",
   "devDependencies": {
