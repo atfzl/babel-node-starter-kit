@@ -11,8 +11,9 @@
   "author": "Atif Afzal",
   "license": "MIT",
   "devDependencies": {
-    "babel-watch": "^2.0.6",
     "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.4.0"
+    "babel-preset-env": "^1.4.0",
+    "babel-watch": "^2.0.6",
+    "flow-bin": "^0.44.0"
   }
 }
